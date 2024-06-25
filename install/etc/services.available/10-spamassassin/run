@@ -24,7 +24,7 @@ exec spamd \
 			--min-children=${CHILD_MIN} \
 			--min-spare=${CHILD_MIN_SPARE} \
 			--pidfile ${PID_PATH}${PID_FILE} \
-			--syslog=${LOG_PATH}${LOG_FILE} \
+			--syslog=${SYSLOG_FACILITY} \
 			--timeout-child=${TIMEOUT_CHILD} \
 			--timeout-tcp=${TIMEOUT_TCP} \
 			--nouser-config $debug_arg $learning_arg $round_robin_arg

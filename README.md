@@ -102,6 +102,7 @@ Be sure to view the following repositories to understand all the customizable op
 | `ENABLE_ROUND_ROBIN`    | Enable Roundrobin Forking for childs    | `FALSE`                  |
 | `ENABLE_UPDATES`        | Enable Ruleset Updates                  | `TRUE`                   |
 | `LISTEN_PORT`           | TCP Listen Port                         | `783`                    |
+| `SYSLOG_FACILITY`       | Syslog facility                         | `/logs/spamassassin.log` |
 | `LOG_FILE`              | Log File                                | `spamassassin.log`       |
 | `LOG_PATH`              | Log Logcation                           | `/logs/`                 |
 | `PID_FILE`              | PID File                                | `spamassassin.pid`       |
